@@ -1,10 +1,4 @@
-/**
- * Employee class represents an employee in the company with attributes:
- * name, age, department, and salary.
- * 
- * This class demonstrates proper encapsulation with private fields
- * and public getter methods for accessing employee information.
- */
+
 public class Employee {
     private String name;
     private int age;
@@ -18,7 +12,6 @@ public class Employee {
         this.salary = salary;
     }
 
-    // Getter methods for accessing private fields
     public String getName() {
         return name;
     }
